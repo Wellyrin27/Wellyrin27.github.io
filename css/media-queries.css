@@ -1,6 +1,6 @@
 @media only screen and (max-width: 992px){
 .wrapper{
-    width: 1000px;
+    width: 750px;
 }
 .v2_5{
     background: url("../images/mobile.jpg");
@@ -132,8 +132,8 @@
 }
 .v2_28{
     position: absolute;
-    width: 63px;
-    height: 16px;
+    width: 67px;
+    height: 17px;
     left: 39px;
     top: 303px;
     font-family: Gaegu;
@@ -144,15 +144,15 @@
 }
 .v2_29{
     position: absolute;
-    width: 75px;
-    height: 16px;
+    width: 67px;
+    height: 17px;
     left: 144px;
     top: 303px;
 
     font-family: Gaegu;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 17px;  
 }
 .v2_30{
