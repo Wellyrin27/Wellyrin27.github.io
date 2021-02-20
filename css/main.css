@@ -90,16 +90,17 @@
 
 }
 .v2_26 {
-  width: 689px;
+  width: 573px;
+  height: 90px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 275px;
   left: 725px;
+  top: 422px; 
   font-family: Garamond;
   font-style: normal;
   font-weight: bold;
-  font-size: 110px;
-  line-height: 146px;
+  font-size: 80px;
+  line-height: 90px;
   opacity: 1;
   text-align: left;
 
@@ -186,6 +187,21 @@
   text-align: left;
   word-wrap: break-word;
   min-width: 90%;
+}
+.v2_40 {
+  position: absolute;
+  width: 490px;
+  height: 147px;
+  left: 725px;
+  top: 275px;
+
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 130px;
+  line-height: 146px;
+  color: rgba(0,0,0,1);
+
 }
 .v3_5 {
   width: 234px;
