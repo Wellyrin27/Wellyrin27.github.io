@@ -1,6 +1,7 @@
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 420px){
 .wrapper{
-    width: 750px;
+    width: 375px;
+    height: 667px;
 }
 .v2_5{
     background: url("../images/mobile.jpg");
