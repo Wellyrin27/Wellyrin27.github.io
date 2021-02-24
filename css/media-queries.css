@@ -1,211 +1,232 @@
-@media only screen and (max-width: 420px){
+@media (max-width: 1100px)
+{
 .wrapper{
-    width: 410px;
-    height: 700px;
+    padding: 10px 0;
 }
 .Photo{
-    background: url("../images/mobile.jpg");
-    position: absolute;
-    width: 127px;
-    height: 124px;
-    left: 21px;
-    top: 6px;
-
+    width: 483px;
+    height: 462px;
+    left: 0px;
+    top: 222px;
 }
-.Name{
-    position: absolute;
-    width: 195.38px;
-    height: 51.43px;
-    left: 167.57px;
-    top: 8px;
-    transform: rotate(0.64deg);
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 27px;
-
+.Name{ 
+    width: 952.83px;
+    height: 86.49px;
+    left: 25.96px;
+    top: 54px
 }
 .Short_description {
-    position: absolute;
-    width: 182px;
+    width: 385px;
     height: 27px;
-    left: 167px;
-    top: 67px;
-
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
+    left: 25px;
+    top: 173px;
 }
 .Home_page{
-    position: absolute;
-    width: 59px;
+    width: 142px;
     height: 23px;
-    left: 168px;
-    top: 89px;
-
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 13px;
+    left: 446px;
+    top: 175px;
 }
 .Summary{
-    position: absolute;
-    width: 59px;
+    width: 135px;
     height: 23px;
-    left: 237px;
-    top: 89px;
-
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 13px;
+    left: 661px;
+    top: 176px;
 }
 .Projects{
-    position: absolute;
-    width: 67px;
+    width: 153px;
     height: 23px;
-    left: 305px;
-    top: 89px;
+    left: 869px;
+    top: 174px;
 
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 13px;
 }
 .Welcome{
-    position: absolute;
-    width: 301px;
-    height: 73px;
-    left: 30px;
-    top: 145px;
+    width: 490px;
+    height: 147px;
+    left: 446px;
+    top: 203px;
 
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 73px;
 }
 .Second_welcome{
-    position: absolute;
-    width: 287px;
-    height: 45px;
-    left: 30px;
-    top: 218px;
-
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 45px;
+    width: 573px;
+    height: 90px;
+    left: 503px;
+    top: 340px;
 }
 .Red_ball{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 30px;
-    top: 270px;
-
-    background: #FD002E;
+    width: 190px;
+    height: 190px;
+    left: 503px;
+    top: 440px;
+ 
 }
 .Blue_ball{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 138px;
-    top: 270px;
-
-    background: #03A7B1;
+    width: 191px;
+    height: 190px;
+    left: 730px;
+    top: 446px;
 }
 .Dark_blue_ball{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 246px;
-    top: 270px;
-
-    background: #010380;
+    width: 193px;
+    height: 190px;
+    left: 614px;
+    top: 619px;
 }
 .Summary_ball{
-    position: absolute;
-    width: 67px;
-    height: 17px;
-    left: 39px;
-    top: 303px;
-    font-family: Gaegu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 17px;
+    width: 137px;
+    height: 22px;
+    left: 538px;
+    top: 519px; 
 }
 .Projects_ball{
-    position: absolute;
-    width: 67px;
-    height: 17px;
-    left: 144px;
-    top: 303px;
-
-    font-family: Gaegu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 17px;  
+    width: 137px;
+    height: 35px;
+    left: 757px;
+    top: 519px;  
 }
 .Skills_ball{
-    position: absolute;
-    width: 67px;
-    height: 17px;
-    left: 255px;
-    top: 303px;
-
-    font-family: Gaegu;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 17px;
+    width: 134px;
+    height: 32px;
+    left: 644px;
+    top: 698px;
 }
 .list_of_professional_skills{
-    position: absolute;
-    width: 345px;
-    height: 171px;
-    left: 30px;
-    top: 397px;
-
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
+    width: 664px;
+    height: 187px;
+    left: 1px;
+    top: 691px;
 }
 .Contacts{
-    position: absolute;
-    width: 104px;
-    height: 27px;
-    left: 30px;
-    top: 582px;
-
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 22px;
+    width: 234px;
+    height: 45px;
+    left: 20px;
+    top: 870px;
 }
 .Number_and_VK{
-    position: absolute;
     width: 373px;
-    height: 12px;
-    left: 30px;
-    top: 615px;
+    height: 20px;
+    left: 20px;
+    top: 910px;
+}
+@media (max-width: 600px){
+    h2{
+        font-size: 14px;
+    }
 
-    font-family: Garamond;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
+    .Photo{
+        width: 127px;
+        height: 124px;
+        left: 21px;
+        top: 6px;
+        background: url("../images/mobile.jpg");
+    }
+    .Name{ 
+        width: 195.38px;
+        height: 51.43px;
+        left: 167.57px;
+        top: 8px;
+        font-size: 24px;
+    }
+    .Short_description {
+        width: 182px;
+        height: 27px;
+        left: 167px;
+        top: 67px;
+        font-size: 14px;
+    }
+    .Home_page{
+        width: 59px;
+        height: 23px;
+        left: 168px;
+        top: 89px;
+        font-size: 12px;
+    }
+    .Projects{
+        width: 67px;
+        height: 23px;
+        left: 305px;
+        top: 89px;
+        font-size: 12px;
+    }
+    .Welcome{
+        width: 301px;
+        height: 73px;
+        left: 30px;
+        top: 145px;
+        font-size: 65px;
+        line-height: 73px;
+    }
+    .Second_welcome{
+        width: 287px;
+        height: 45px;
+        left: 30px;
+        top: 218px;
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .Summary{
+        width: 59px;
+        height: 23px;
+        left: 237px;
+        top: 89px;
+        font-size: 12px;
+    }
+    .Red_ball{
+        width: 80px;
+        height: 80px;
+        left: 30px;
+        top: 270px;
+    }
+    .Blue_ball{
+        width: 80px;
+        height: 80px;
+        left: 138px;
+        top: 270px;
+    }
+    .Dark_blue_ball{
+        width: 80px;
+        height: 80px;
+        left: 246px;
+        top: 270px;
+    }
+    .Summary_ball{
+        width: 63px;
+        height: 16px;
+        left: 39px;
+        top: 303px;
+    }
+    .Projects_ball{
+        width: 75px;
+        height: 16px;
+        left: 144px;
+        top: 303px;
+    }
+    .Skills_ball{
+        width: 67px;
+        height: 17px;
+        left: 255px;
+        top: 303px;
+    }
+    .list_of_professional_skills{
+        width: 345px;
+        height: 171px;
+        left: 30px;
+        top: 397px;
+        font-size: 16px;
+    }
+    .Contacts{
+        width: 104px;
+        height: 27px;
+        left: 30px;
+        top: 582px;
+        font-size: 20px;
+    }
+    .Number_and_VK{
+        width: 373px;
+        height: 12px;
+        left: 30px;
+        top: 615px;
+        font-size: 14px;
+    }
 }
 }

@@ -1,11 +1,23 @@
-* {
-  overflow-x: hidden;
-  padding: 0px !important;
-  margin: 0px !important;
+*,*:after, *::before{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: .5s ease-in-out;
 }
-.wrapper {
-  width: 100%;
-  margin: 50px auto;
+body{
+  overflow: scroll;
+}
+h2{
+  color: rgb(255, 255, 255);
+  font-family: Gaegu;
+  font-weight: Bold;
+  font-size: 26px;
+}
+div{
+  color: rgba(0,0,0,1);
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: bold;
 }
 .Background {
   width: 100%;
@@ -30,12 +42,10 @@
 }
 .Name {
   width: 952px;
-  color: rgba(0,0,0,1);
+  color: inherit;
   position: absolute;
   top: 53px;
   left: 171px;
-  font-family: Garamond;
-  font-weight: Bold;
   font-size: 72px;
   opacity: 1;
   text-align: left;
@@ -43,12 +53,10 @@
 }
 .Short_description {
   width: 385px;
-  color: rgba(0,0,0,1);
+  color: inherit;
   position: absolute;
   top: 173px;
   left: 171px;
-  font-family: Garamond;
-  font-weight: Bold;
   font-size: 30px;
   opacity: 1;
   text-align: left;
@@ -56,12 +64,9 @@
 }
 .Home_page {
   width: 142px;
-  color: rgba(0,0,0,1);
   position: absolute;
   top: 175px;
   left: 614px;
-  font-family: Garamond;
-  font-weight: Bold;
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -69,12 +74,9 @@
 }
 .Summary {
   width: 135px;
-  color: rgba(0,0,0,1);
   position: absolute;
   top: 175px;
   left: 826px;
-  font-family: Garamond;
-  font-weight: Bold;
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -82,12 +84,9 @@
 }
 .Projects {
   width: 153px;
-  color: rgba(0,0,0,1);
   position: absolute;
   top: 174px;
   left: 1048px;
-  font-family: Garamond;
-  font-weight: Bold;
   font-size: 28px;
   opacity: 1;
   text-align: left;
@@ -96,13 +95,9 @@
 .Second_welcome {
   width: 573px;
   height: 90px;
-  color: rgba(0,0,0,1);
   position: absolute;
   left: 725px;
   top: 422px; 
-  font-family: Garamond;
-  font-style: normal;
-  font-weight: bold;
   font-size: 80px;
   line-height: 90px;
   opacity: 1;
@@ -144,53 +139,33 @@
 }
 .Summary_ball {
   width: 137px;
-  color: rgba(255,255,255,1);
   position: absolute;
   top: 644px;
   left: 767px;
-  font-family: Gaegu;
-  font-weight: Bold;
-  font-size: 26px;
-  opacity: 1;
-  text-align: left;
 }
 .Projects_ball {
   width: 137px;
-  color: rgba(255,255,255,1);
   position: absolute;
   top: 644px;
   left: 987px;
-  font-family: Gaegu;
-  font-weight: Bold;
-  font-size: 26px;
-  opacity: 1;
-  text-align: left;
 }
 .Skills_ball {
   width: 134px;
-  color: rgb(255, 255, 255);
   position: absolute;
   top: 644px;
   left: 1215px;
-  font-family: Gaegu;
-  font-weight: Bold;
-  font-size: 26px;
-  opacity: 1;
-  text-align: left;
 }
 .list_of_professional_skills {
   width: 664px;
-  color: rgba(10,0,0,1);
   position: absolute;
   top: 773px;
   left: 735px;
-  font-family: Garamond;
-  font-weight: Bold;
   font-size: 30px;
   opacity: 1;
   text-align: left;
   word-wrap: break-word;
   min-width: 90%;
+
 }
 .Welcome {
   position: absolute;
@@ -198,36 +173,31 @@
   height: 147px;
   left: 725px;
   top: 275px;
-
-  font-family: Garamond;
-  font-style: normal;
-  font-weight: bold;
   font-size: 130px;
   line-height: 146px;
-  color: rgba(0,0,0,1);
 
 }
 .Contacts {
   width: 234px;
-  color: rgba(0,0,0,1);
   position: absolute;
   top: 947px;
   left: 735px;
-  font-family: Garamond;
-  font-weight: Bold;
   font-size: 30px;
   opacity: 1;
   text-align: left;
 }
 .Number_and_VK {
   width: 373px;
-  color: rgba(0,0,0,1);
   position: absolute;
   top: 992px;
   left: 735px;
-  font-family: Garamond;
-  font-weight: Bold;
   font-size: 18px;
   opacity: 1;
   text-align: left;
+}
+.container{
+    margin: 0 auto;
+   width: 100%;
+   max-width: 960px;
+   padding: 0 15px;
 }
